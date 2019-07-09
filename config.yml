@@ -1,0 +1,19 @@
+name: ReportPlayer
+main: ReportPlayer\Main
+api: [3.0.0]
+description: Report players.
+version: 0.1
+author: MasApip
+commands:
+    report:
+        description: Reporting players
+    rplayer:
+        description: ReportPlayer info's
+        permission: rplayer.info
+permissions:      
+    rp.report.view:
+        default: op
+    rplayer.info:
+        default: true
+    rp.report:
+        default: true
